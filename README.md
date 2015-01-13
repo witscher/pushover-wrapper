@@ -10,7 +10,7 @@ Miniserver.
 
 
 # Requirements: 
-a php capable Server which is connected to the internet (a raspberry pi with raspian is a rather good, cheap and stable solution)
+a php capable Server which is connected to the internet (a raspberry pi with raspian is a rather good, cheap and stable solution). You also need the php curl library.
 
 
 # general setup:
@@ -18,3 +18,13 @@ a php capable Server which is connected to the internet (a raspberry pi with ras
 copy config.inc.php.dist to config.inc.php. Edit the file and enter your pushover credentials
 
 
+configuration in Loxone images:
+
+![Konfiguration V/A]
+(https://github.com/witscher/pushover-wrapper/blob/master/doc/images/virtueller_ausgang.png)
+
+![Konfiguration Befehl]
+(https://github.com/witscher/pushover-wrapper/blob/master/doc/images/virtueller_ausgang_befehl.png)
+
+![Aufruf und AUslösen der notification]
+(https://github.com/witscher/pushover-wrapper/blob/master/doc/images/aufruf.png)
